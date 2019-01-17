@@ -1,7 +1,12 @@
-const messageRecieved = document.getElementById('message').value.toUpperCase(); //Declarar la constante message con input
-document.getElementById("message").innerHTML = 'tu mensaje es ' + messageRecieved;
-const offset = document.getElementById('offset').value;// Offset tiene un valor
-const encript = document.getElementById('encript');
-let messageEncode =''
+const messageRecieved = document.getElementById('message'); //Declarar la constante message con input
+const offset = document.getElementById('offset');// Offset tiene un valor
+const buttonEncode = document.getElementById('encodeButton');
+let encodeC = '';
 
-buttonEncode.addEventListener('click', window.cipher.encode);//agrega evento al botón e indica que hace referencia al encode
+buttonEncode.addEventListener('click', () => {
+    const messageB = messageRecieved.value.toUpperCase();
+    const offsetB = offset.value
+
+    window.cipher.encode(offsetB, messageB)
+};//agrega evento al botón e indica que hace referencia a la función encode
+

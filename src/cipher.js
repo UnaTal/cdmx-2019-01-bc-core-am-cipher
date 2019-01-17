@@ -1,22 +1,25 @@
 window.cipher = {
 
-  encode: (offset, message) => {
-    for ( let i = 0; i<message.length; i++) {
-      const ascii = message.chartCodeAt(i);
+  encode: (offsetB, messageB) => {
+    offsetB = parseInt(offset2)
+    let encodeC ='';
+    for ( let i = 0; i < messageB.length; i++) {
+      const ascii = messageB[i].chartCodeAt();
       const formula = (ascii - 65 + offset) % 26 + 65;
-      const messageEncode = message.fromCharCode(formula);
-      const result += messageEncode;
+      let encodeMessage = String.fromCharCode(formula);
+      encodeC += encodeMessage
+      //result = encodeMessage;
       }
     }
-    console.log(offset, message)
-    return result;
+    //console.log(offset, messageRecieved)
+    //return encodeMessage;
   }
   
 
-  decode: () => {
+  //decode: () => {
 
   }
 
-  const algo = () => {}
+  //const algo = () => {}
 
-  return(decodeMessage )
+  //return(decodeMessage )
