@@ -8,5 +8,4 @@ buttonEncode.addEventListener('click', () => {
     const offsetB = offset.value
 
     window.cipher.encode(offsetB, messageB)
-};//agrega evento al botón e indica que hace referencia a la función encode
-
+}//agrega evento al botón e indica que hace referencia a la función encode
