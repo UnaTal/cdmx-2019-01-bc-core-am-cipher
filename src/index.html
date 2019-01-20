@@ -5,17 +5,27 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+    
   <body>
     <div id="root">
       <h1>Cifrando ando</h1>
-      <input type="text" id="message" placeholder="Escribe tu mensaje aquí">
+    </div>
+    <div id="form">
+      <form>
+        Escribe el mensaje a cifrar:
+        <br>
+      <input type="text" id="message" placeholder="Tu mensaje aquí">
+      <br>
+      Elige el desplazamiento:
+      <br>
+      <input type="text" id="offset" placeholder="Aquí el desplazamiento">
       <br>
       <br>
-      <input type="text" id="offset" placeholder="Ingresa el desplazamiento">
-      <br>
-      <br>
-      <button id="encodeButton">Enviar</button>
-    </div> 
+      <input id="encodeButton" type="button" value="Cifrar">
+      <input id="decodeButton" type="button" value="Descifrar">
+      </form>
+    </div>
+      
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
