@@ -1,34 +1,55 @@
-/*$grey: #dadada
-*
-    box-sizing: border-box;
-body
-    height: 100%;
+.img {
+    align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+
+body {
+    margin: 0px; 
+    padding: 0px;
+    font-family: Gotham,Arial,sans-serif;
     font-size: 20px;
-    font-family: 'montserratbold, Helvetica, Arial', sans-serif;
+    line-height: 1.42857;
+    color: #4b4d63;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
     text-align: center;
-    color: rgb(37, 108, 144);
-    line-height: 29px;
-    vertical-align: middle;
+}
+.btn_encode {
+    cursor: pointer;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 200px 200px 200px 200px;
+    background-color: #2dccd3;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Gotham,Arial,sans-serif;
+    
+};
 
-    background: $grey
-image
-    position: 
-    top:
-
-.container
-    position:
-    max-width: 700px
-    margin:
-    margin
-    col
-.text-input
-    display: block
-    border-radius: 3px
-    border:
-    outline:
-    padding:
-    color:
-    font-size:
-    font-style:
-*/
-
+.btn_decode {
+    cursor: pointer;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 2px;
+    background-color: #119fa7;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Gotham,Arial,sans-serif;
+    text-align: center;
+};

@@ -12,7 +12,7 @@ window.cipher = {
       //console.log(encodeC)
       return encodeC;
   },
-  //document.getElementById('encode').innerHTML `Tu mensaje encriptado es ${encodeMessage}`;
+
   decode: (offsetD, messageD) => {
     let offsetE = parseInt(offsetD);
     let decodeD = '';

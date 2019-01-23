@@ -15,7 +15,7 @@ encodeButton.addEventListener('click', () => {
  decodeButton.addEventListener('click', () => {
     const messageD = message.value.toUpperCase();
     const offsetD = offset.value;
-    const decodeB = window.cipher.encode(offsetD, messageD);
+    const decodeB = window.cipher.decode(offsetD, messageD);
     message.value = decodeB
  });
     
