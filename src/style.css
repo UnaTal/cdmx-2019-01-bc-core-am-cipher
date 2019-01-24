@@ -4,10 +4,15 @@
 }
 
 h1 {
-    margin-left: 50%;
+    text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 80%;
     color: lightgrey;
+}
+h2 {
+    font-family: Gotham,sans-serif;
+    font-size: 30px;
+    color: white;
 }
 
 .alamedaphoto {
@@ -19,7 +24,9 @@ h1 {
 }
 
 p {
+    display: inline-block;
     font-family: 'Segoe UI', sans-serif;
+    padding: 100px;
 }
 
 .content {
@@ -30,18 +37,26 @@ p {
 }
 
 .textbox {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     border-radius: 8px;
+    float: left;
+}
+.textbox2 {
+    width: 10%;
+    height: 40%;
+    border-radius: 8px;
+}
+
+.offsetcontent{
+    align-content: center;
 }
 
 .buttons {
     display: inline-block;
-    cursor: pointer;
     font-size: 13px;
     height: 50px;
     line-height: 50px;
-    padding: 0;
     border-radius: 200px 200px 200px 200px;
     font-family: Helvetica, sans-serif;
     width: 32%;
