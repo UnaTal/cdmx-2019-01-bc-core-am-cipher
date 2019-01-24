@@ -1,12 +1,86 @@
-.img {
+.RescatandolaCDMX {
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 50%;
+    font-family: Helvetica, sans-serif;
+    font-size: 80%;
+    color: lightgrey;
+}
+
+.alamedaphoto {
+    width= 40%;
+    height: 500px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+p {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+    background-color:lightgray;
+    width: 100%;
+    height: 520px;
+    text-align: right;
+}
+
+.textbox {
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 200px 200px 200px 200px;
+    font-family: Helvetica, sans-serif;
+    width: 32%;
+    max-width: 300px;
+    border: none;
+    color: white;
+}
+.encode {
+    background-color: darkcyan;
+}
+.decode {
+    background-color: cadetblue;
+}
+.share {
+    background-color: aquamarine;
+}
+
+
+vertical-align: middle;
+background-position: center;
+
+/*.img {
     align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    border-radius: 8px;
+    width: 25%;
+    border-radius: 20px;
 }
 
+.title_app {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 body {
     margin: 0px; 
@@ -20,6 +94,7 @@ body {
     background-color: lightgray;
     text-align: center;
 }
+
 .btn_encode {
     cursor: pointer;
     font-size: 13px;
