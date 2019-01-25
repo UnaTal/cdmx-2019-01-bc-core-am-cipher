@@ -5,47 +5,39 @@
     <title>Demoledores Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
     
   <body>
     <div id="root">
         <header class="RescatandolaCDMX">
-          <h1>Salvando la Ciudad de México</h1>
+          <h1>El parque público central de la Ciudad de México</h1>
         </header>
         
         <section class="content">
-            <article>
-                <img class="alamedaphoto" src="./images/palomajacaranda2.png">
-                <h2>Salvemos la Alameda Central</h2>
-            </article>
+                <img class="alamedaphoto" src="./images/salvemoslaalameda.png">
           <p>Escribe el mensaje a cifrar o descifrar:</p>
           <br>
           <input type="text" class="textbox" id="message" placeholder="Tu mensaje aquí">
           <br>
           <article class="offsetcontent">
-            <p>Elige la combinación:</p>
-            <input type="text" class="textbox2" id="offset" placeholder="Aquí el desplazamiento">
+            <p2>Escribe la clave:</p2>
+            <input type="text" class="textbox2" id="offset" placeholder="Clave">
             <br>
-          </article>
-          <article class="buttons">
-              <button id="encodeButton" class="buttons encode" value="Cifrar">Cifrar</button>
+            <button id="encodeButton" class="buttons encode" value="Cifrar">Cifrar</button>
               <button id="decodeButton" class="buttons decode" value="Descifrar">Descifrar</button>
               <button class="buttons share" value="Compartir">Compartir</button>
           </article>
+          <section class="buttons">
+              
+          </section>
           
         </section>
     </div>
       <footer class="proyectoLAB">
-        <h1>Primer proyecto BootCamp Laboratoria 2019, Ciudad de México</h1>
+        <h2>Primer proyecto del BootCamp, Laboratoria 2019</h2>
       </footer>
-          
-      </section>
-      <br>
-      <br>
-      
-      </form>
-    </div>
-      
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

@@ -4,7 +4,9 @@
 
 Un grupo de académicos y sociedad civil que estudia el desarrollo urbano de la CDMX recién se enteró que "alguien" compró una sección de la Alameda Central y la convertirá en una plaza comercial. Como son personas que por su conocimiento, experiencia y organización pueden detener semejante proyecto que no le hará nada bien a la ciudad, deben encontrar un medio digital para mantener la comunicación porque son conocidos como "Los Demoledores". Como las obras comienzan en dos semanas y tú eres "la que empuja la palanca de esa demoledora" debes idear esta aplicación / interfaz por el bien de la ciudad. ¡Manos a la obra!
 
-![versión-móvil] ()
+La aplicación que contiene el presente proyecto es la versión web del mismo. Sin embargo, también está pensada en versión móvil. Aquí abajo podemos encontrar la interfaz de usuario:
+
+![versión-móvil](https://raw.githubusercontent.com/UnaTal/cdmx-2019-01-bc-core-am-cipher/master/src/images/version_movil.jpg)
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 

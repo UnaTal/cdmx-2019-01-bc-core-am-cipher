@@ -5,28 +5,19 @@
 
 h1 {
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 80%;
-    color: lightgrey;
-}
-h2 {
-    font-family: Gotham,sans-serif;
-    font-size: 30px;
-    color: white;
+    color: slategrey;
+    margin-left: 565px;
 }
 
 .alamedaphoto {
-    width= 40%;
+    width: 55%;
     height: 500px;
     float: left;
     padding-top: 10px;
     padding-left: 35px;
-}
-
-p {
-    display: inline-block;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 100px;
+    border-color: dimgrey;
 }
 
 .content {
@@ -34,6 +25,20 @@ p {
     width: 100%;
     height: 520px;
     text-align: right;
+    margin-right: 60px;
+}
+
+p {
+    display: inline-block;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0px;
+    margin-right: 280px;
+}
+p2 {
+    display: inline-block;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0px;
+    margin-right: 20px;
 }
 
 .textbox {
@@ -42,38 +47,49 @@ p {
     border-radius: 8px;
     float: left;
 }
+
 .textbox2 {
-    width: 10%;
-    height: 40%;
+    width: 5%;
+    height: 50px;
     border-radius: 8px;
 }
 
 .offsetcontent{
     align-content: center;
+    margin-top: 135px;
+    margin-right: 319px;
 }
 
 .buttons {
-    display: inline-block;
-    font-size: 13px;
     height: 50px;
-    line-height: 50px;
     border-radius: 200px 200px 200px 200px;
-    font-family: Helvetica, sans-serif;
-    width: 32%;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
     max-width: 300px;
     border: none;
     color: white;
+    margin-bottom: 20px;
 }
 .encode {
     background-color: darkcyan;
+    align-self: center;
+    margin-top: 39px;
 }
 .decode {
-    background-color: cadetblue;
+    background-color: rebeccapurple;
+    margin-top: 9px;
 }
 .share {
-    background-color: aquamarine;
+    background-color: tomato;
+    margin-top: 7px;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+    color: slategrey; 
+}
 
 vertical-align: middle;
 background-position: center;
